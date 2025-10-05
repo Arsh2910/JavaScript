@@ -10,7 +10,7 @@ console.log(myArr[1]);
 
 // ARRAY METHODS
 myArr.push(6)
-myArr.push(7) // push adds ele
+myArr.push(7) // push adds to last ele
 myArr.pop()//removes the last ele
 myArr.shift()// removes first ele
 myArr.unshift(9)//adds ele to first posi and shift every shit
@@ -28,8 +28,8 @@ console.log("A",myArr);
 const myn1 = myArr.slice(1,3)//INDEX LAST RANGE NOT INCLUDED
 
 console.log(myn1);
-console.log("B",myArr);
+console.log("B",myArr);//slice operation perfomed
 
 const myn2 = myArr.splice(1,3)//last range include
-console.log("C",myArr);
+console.log("C",myArr);//splice operation performed
 console.log(myn2);
