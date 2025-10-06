@@ -1,1 +1,1 @@
-//string changed to number
+addone(5)
